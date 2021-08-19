@@ -1,0 +1,61 @@
+#bannière{
+    width: 800px;
+    height: 200px;
+}
+
+.imgP1{
+    width: 200px;
+    height: 100px;
+}
+body{
+    background-image: linear-gradient(#CCDAE0, #EDF2F4);
+}
+header{
+    text-align: center;
+}
+h1{
+    color: #EF233C;
+    font-size: 100px;
+    font-weight: 900;
+    font-family: Impact;
+}
+h3{
+    color: #2B2D42;
+    font-weight: bolder;
+    text-decoration: underline dotted;
+}
+article{border: solid black 1px;}
+
+.imgP1{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    border: solid #8D99AE  2px;
+
+}
+footer{
+    text-align: right;
+
+}
+ul{
+    list-style-type: none;
+}
+a {
+    color: #D90429 ;
+}
+a:visited{
+    color:grey
+}
+a:hover{
+    color: #2B2D42;
+}
+.ast{
+    color: red;
+}
+h2{
+    color: #EF233C;
+    text-decoration: underline;
+}
+.imgGal{
+    height: 100px;
+}

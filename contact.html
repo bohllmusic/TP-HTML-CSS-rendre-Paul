@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="tp.css">
+</head>
+<body>
+    <header>
+        <img src="https://www.zermatt-apartments.ch/resources/galleries/zermatt-images/04-banner-april-02.jpg" alt="banière" id="bannière">
+
+        <h1>Le Cervin</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" >Accueil</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="gallerie.html">gallerie</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+    </header>   
+    <form action="blabla.php" method="POST">
+        <fieldset>
+            <legend>Contact</legend>
+            <div>
+                <label for="nom">Nom:</label><label for="ast" class="ast">*</label><br>
+                <input type="text" placeholder="Votre nom ici" minlength="2" maxlength="20">
+            </div>
+            <div>
+                <label for="mail">Mail:</label><label for="ast" class="ast">*</label><br>
+                <input type="mail" placeholder="Ex: lala@lulu.fr">
+            </div>
+            <div>
+                <label for="txtarea">Un commentaire?</label><br>
+                <textarea name="txtarea" id="txtarea" cols="70" rows="10" placeholder="laissez un commentaire"></textarea>
+            </div>
+            <div>
+                <input type="checkbox"checked> <label for="checkbox">Envoyer une copie</label>
+            </div>
+            <div>
+                <input type="submit" value="Envoyer">
+                <input type="reset" value="Réinitialiser">
+            </div>
+        </fieldset>
+        
+    
+    </form>
+
+    <footer>
+        <ul>
+            <li><a href="https://www.zermatt.ch/fr/cervin">zermatt</a></li>
+            <li><a href="https://fr.wikipedia.org/wiki/Cervin">wikipedia</a></li>
+            <li><a href="https://www.matterhornparadise.ch/fr/Decouvrir/Region/Le-mythe-du-Cervin">matterhorn</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
